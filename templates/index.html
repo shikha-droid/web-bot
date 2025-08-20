@@ -3,6 +3,7 @@
 <html>
 <head>
     <title>Talkomatic Bot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
     <style>
         /* Page styling */
@@ -21,7 +22,6 @@
             font-size: 2.5rem; 
             font-family: 'Chewy';
             font-weight: normal;
-            color: #00072d;
             margin-bottom: 10px;
         }
 
@@ -35,7 +35,15 @@
             font-family: 'Ebrima', 'Segoe UI', 'Ariel', sans-serif;
         }
 
-        /* Chatbox */
+        /* Title stays in Chewy; chat messages use Nunito (Ebrima-like) */
+        #chatbox {
+            font-family: 'Nunito', 'Ebrima', 'Segoe UI', Roboto, Arial, sans-serif !important;
+            font-size: 1rem;
+            line-height: 1.5;
+            color: #222;
+        }
+        
+        /* Chatbox */        
         #chatbox {
             border: 1px solid #000;
             border-radius: 10px;
