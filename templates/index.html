@@ -106,6 +106,14 @@
             chat.innerHTML += "<b>Bot:</b> " + data.reply + "<br>";
             chat.scrollTop = chat.scrollHeight;
         }
+        // Enter key triggers send
+        let input = document.getElementById("userInput");
+        input.addEventListener("keypress", function(e) {
+        if (e.key === "Enter") {
+            sendMessage();
+            e.preventDefault();
+    }
+});
     </script>
 </body>
 </html>
