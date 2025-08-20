@@ -7,7 +7,7 @@ app = Flask(__name__)
 def get_reply(user):
     user = user.lower()
     
-    if "hi" in user or "hello" in user:
+    if "hi" in user or "hello" in user or "hey" in user:
         return random.choice([
             "Hey there, 🖐",
             "Oh, it's you… hi 😼",
