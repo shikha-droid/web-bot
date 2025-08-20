@@ -10,7 +10,6 @@
         /* Page styling */
         body {
             background-color: #801818; /* maroon*/
-            /* cute playful font */
             display: flex;
             justify-content: center;
             align-items: center;
@@ -21,9 +20,10 @@
         /* title*/
         #title {
             font-size: 2.5rem;
-            font-family: 'Chewy', sans-serif;
+            font-family: 'Chewy', cursive;
             font-weight: normal; /* no bold */
-            margin-bottom: 10px;
+            margin-bottom: 15px;
+            text-align: center;
         }
 
         /* Chat container */
@@ -35,10 +35,6 @@
             max-width: 600px;
             margin: 20px auto;
             box-shadow: 2px 4px 10px rgba(0,0,0,0.2);
-        }
-
-        /* Title stays in Chewy; chat messages use Nunito (Ebrima-like) */
-        #chat-container {
             font-family: 'Nunito', 'Ebrima', 'Segoe UI', Roboto, Arial, sans-serif !important;
             font-size: 1rem;
             line-height: 1.5;
@@ -81,9 +77,8 @@
     </style>
 </head>
 <body>
-    <h2 id="title" style="text-align:center;">🤖 Talkomatic Bot</h2>
     <div id="chat-container"> 
-        <h2 style="text-align:center;">🤖 Talkomatic Bot</h2>
+        <h2 id="title">🤖 Talkomatic Bot</h2>
         <div id="chatbox"></div>
         <input type="text" id="userInput" placeholder="Type your message...">
         <button onclick="sendMessage()">Send</button>
