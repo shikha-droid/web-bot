@@ -44,7 +44,7 @@ def get_reply(user):
             "Shikha made me 💻",
             "Don't blame me, blame my code 🤖",
             "Hehe, I'm your brat bot 😏",
-            "Running on Python energy 🐍
+            "Running on Python energy 🐍"
         ])
     
     else:
