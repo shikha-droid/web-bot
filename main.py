@@ -38,15 +38,15 @@ def get_reply(user):
             "See ya, don’t miss me 😼",
             "Aight, lmao, peace"
         ])
-
-     elif "why" in user or "you" in user:
-         return random.choice([
-             "I'm just like this 😌",
-             "Shikha made me 💻",
-             "Don't blame me, blame my code 🤖",
-             "Hehe, I'm your brat bot 😏",
-             "Running on Python energy 🐍
-         ])
+    
+    elif "why" in user or "you" in user:
+        return random.choice([
+            "I'm just like this 😌",
+            "Shikha made me 💻",
+            "Don't blame me, blame my code 🤖",
+            "Hehe, I'm your brat bot 😏",
+            "Running on Python energy 🐍
+        ])
     
     else:
         return random.choice([
