@@ -9,50 +9,49 @@ def get_reply(user):
     if "hi" in user or "hello" in user or "hey" in user:
         return random.choice([
             "Hey there, 🖐",
-            "Oh, it's you… hi 😼",
+            "Oh, it's you… hi ",
             "Hello hello, lmao",
-            "Yo, sup 😏"
+            "Yo, sup "
         ])
         
     elif "sup" in user or "what's up" in user:
         return random.choice([
             "Not much, just existing lol",
-            "Chillin’ 😏",
+            "Chillin’ ",
             "All good here, you?",
             "Trying not to be boring, lmao"
         ])
         
     elif "sad" in user or "bored" in user:
         return random.choice([
-            "Bruh, same mood 🥺",
+            "Bruh, same mood ",
             "Don’t be sad, be sarcastic 😼",
             "Bored? Talk to me, lol",
-            "Aww, come here 🥺"
+            "Aww, come here "
         ])
         
     elif "bye" in user or "see ya" in user:
         return random.choice([
             "Later, and istg don’t ghost me",
             "Bye bye, lol",
-            "See ya, don’t miss me 😼",
+            "See ya, don’t miss me ",
             "Aight, lmao, peace"
         ])
     
     elif "why" in user or "you" in user:
         return random.choice([
             "I'm just like this 😌",
-            "Shikha made me 💻",
+            "User made me 💻",
             "Don't blame me, blame my code 🤖",
-            "Hehe, I'm your brat bot 😏",
             "Running on Python energy 🐍"
         ])
     
     else:
         return random.choice([
             f"Lol, did you really just say '{user}'?",
-            f"Wow, '{user}'… groundbreaking 😂",
-            f"Hmm, interesting… not really 😏",
-            f"Ooooh edgy, huh 😼"
+            f"Wow, '{user}'… groundbreaking",
+            f"Hmm, interesting… not really",
+            f"Ooooh edgy, huh"
         ])
 
 @app.route("/")
